@@ -5,7 +5,6 @@ import com.example.appointment.challenge.models.Appointment;
 import com.example.appointment.challenge.services.AppointmentService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;

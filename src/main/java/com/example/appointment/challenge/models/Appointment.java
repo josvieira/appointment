@@ -3,8 +3,6 @@ package com.example.appointment.challenge.models;
 import com.example.appointment.challenge.enums.StatusAppointment;
 import lombok.Data;
 import javax.persistence.*;
-
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Data
