@@ -1,7 +1,10 @@
 com/example/appointment/challenge/repositories/AppointmentRepository.class
 com/example/appointment/challenge/services/AppointmentService.class
+com/example/appointment/challenge/configs/SwaggerConfig.class
 com/example/appointment/challenge/controllers/AppointmentController.class
 com/example/appointment/challenge/Application.class
 com/example/appointment/challenge/models/Appointment.class
+com/example/appointment/challenge/consumers/AppointmentConsumer.class
+com/example/appointment/challenge/configs/RabbitMQConfig.class
 com/example/appointment/challenge/enums/StatusAppointment.class
 com/example/appointment/challenge/dtos/AppointmentDto.class

@@ -1,5 +1,7 @@
 /home/josiene/Documents/Desafio - Senior sistems/appointment/src/main/java/com/example/appointment/challenge/services/AppointmentService.java
 /home/josiene/Documents/Desafio - Senior sistems/appointment/src/main/java/com/example/appointment/challenge/controllers/AppointmentController.java
+/home/josiene/Documents/Desafio - Senior sistems/appointment/src/main/java/com/example/appointment/challenge/configs/SwaggerConfig.java
+/home/josiene/Documents/Desafio - Senior sistems/appointment/src/main/java/com/example/appointment/challenge/consumers/AppointmentConsumer.java
 /home/josiene/Documents/Desafio - Senior sistems/appointment/src/main/java/com/example/appointment/challenge/Application.java
 /home/josiene/Documents/Desafio - Senior sistems/appointment/src/main/java/com/example/appointment/challenge/configs/RabbitMQConfig.java
 /home/josiene/Documents/Desafio - Senior sistems/appointment/src/main/java/com/example/appointment/challenge/enums/StatusAppointment.java
