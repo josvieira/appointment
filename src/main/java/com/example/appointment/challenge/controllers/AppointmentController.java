@@ -19,6 +19,7 @@ import static org.springframework.http.HttpStatus.CREATED;
 @RestController
 @RequestMapping("/api/appointments")
 @Log4j2
+@CrossOrigin(origins = "*")
 public class AppointmentController {
 
     @Autowired

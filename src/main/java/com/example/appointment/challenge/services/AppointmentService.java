@@ -41,7 +41,7 @@ public class AppointmentService {
             appointment.setStatusAppointment(StatusAppointment.ERROR); //melhoria criar uma fila de retry
         } finally {
             log.info("Appointment saved in BD={}", appointment);
-          return repository.save(appointment);
+            return repository.save(appointment);
         }
 
     }
@@ -49,6 +49,6 @@ public class AppointmentService {
 
     public void sendAppointmentToQueue(String queue, Object message){
         rabbitTemplate.convertAndSend(queue, message);
-        log.info("Appointment sent to queue ms.appoint.save", message);
+        log.info("Appointment sent to queue ms.appoint.save={}", message);
     }
 }
